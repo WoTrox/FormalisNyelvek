@@ -5,12 +5,14 @@
 #include "cxxopts.hpp"
 
 // Add your own problems here
+#include "problems/dfa.hpp"
 #include "problems/sum.hpp"
 
 int runProblem(int argc, char* argv[]) {
     // Add your own problems here
     std::vector<Problem *> problems;
     problems.push_back(new SumProblem());
+    problems.push_back(new DfaSimulation());
 
     cxxopts::Options options("project", "Run the specific problem");
 

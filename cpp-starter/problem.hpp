@@ -6,6 +6,8 @@
 
 class Problem {
 public:
+    virtual ~Problem() = default;
+
     virtual void initialize_parser(cxxopts::Options &options) = 0;
     virtual bool is_chosen_problem(const cxxopts::ParseResult &args) = 0;
     virtual int run(const cxxopts::ParseResult &args) = 0;
