@@ -11,8 +11,6 @@ void DfaSimulation::initialize_parser(cxxopts::Options &options) {
     // Hozzáadjuk azokat a parancssori argumentumokat, amelyeket ez a feladat használ[cite: 3, 4]
     // (Ha a main.cpp-ben az input/output már globálisan definiálva van, akkor innen azok kivehetők)
     options.add_options()
-        ("input", "Bemeneti fajl", cxxopts::value<std::string>())
-        ("output", "Kimeneti fajl", cxxopts::value<std::string>())
         ("check", "Ellenorzendo szavak", cxxopts::value<std::string>());
 }
 
