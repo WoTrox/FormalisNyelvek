@@ -13,12 +13,18 @@
     <ClCompile Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\nfa_to_dfa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\dfa_minimization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\dfa.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\nfa_to_dfa.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\dfa_minimization.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

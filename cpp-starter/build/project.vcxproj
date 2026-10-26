@@ -370,6 +370,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\dfa.hpp" />
     <ClCompile Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\nfa_to_dfa.cpp" />
     <ClInclude Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\nfa_to_dfa.hpp" />
+    <ClCompile Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\dfa_minimization.cpp" />
+    <ClInclude Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\dfa_minimization.hpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

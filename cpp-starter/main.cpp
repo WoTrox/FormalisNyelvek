@@ -8,12 +8,14 @@
 #include "problems/dfa.hpp"
 #include "problems/sum.hpp"
 #include "problems/nfa_to_dfa.hpp"
+#include "problems/dfa_minimization.hpp"
 
 int runProblem(int argc, char* argv[]) {
     std::vector<Problem *> problems;
     problems.push_back(new SumProblem());
     problems.push_back(new DfaSimulation());
     problems.push_back(new NfaToDfa());
+    problems.push_back(new DfaMinimization());
 
     cxxopts::Options options("project", "Run the specific problem");
 

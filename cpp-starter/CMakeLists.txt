@@ -10,4 +10,6 @@ add_executable(project main.cpp problems/sum.cpp
         problems/dfa.cpp
         problems/dfa.hpp
         problems/nfa_to_dfa.cpp
-        problems/nfa_to_dfa.hpp)
+        problems/nfa_to_dfa.hpp
+        problems/dfa_minimization.cpp
+        problems/dfa_minimization.hpp)
