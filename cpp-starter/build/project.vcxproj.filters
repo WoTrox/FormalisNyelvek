@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\dfa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\nfa_to_dfa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\dfa.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\problems\nfa_to_dfa.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\wotro\Sapi\FormalisNyelvek\FormalisNyelvek\cpp-starter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B55FDD7A-B725-3BB3-9745-D00E3C2D9E1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8A0BEB09-43B6-3A43-8862-A9897D142AFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

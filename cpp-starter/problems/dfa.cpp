@@ -19,6 +19,12 @@ bool DfaSimulation::is_chosen_problem(const cxxopts::ParseResult &args) {
     return args.count("check") > 0;
 }
 
+static void trim_cr(std::string &s) {
+    if (!s.empty() && s.back() == '\r') {
+        s.pop_back();
+    }
+}
+
 int DfaSimulation::run(const cxxopts::ParseResult &args) {
     // Ellenőrizzük a szükséges paraméterek meglétét
     if (args.count("input") == 0 || args.count("output") == 0 || args.count("check") == 0) {
@@ -47,9 +53,11 @@ int DfaSimulation::run(const cxxopts::ParseResult &args) {
     // Harmadik sor: Kezdőállapot
     std::string start_state;
     std::getline(infile, start_state);
+    trim_cr(start_state);
 
     // Negyedik sor: Végállapotok
     std::getline(infile, line);
+    trim_cr(line);
     std::istringstream iss_final(line);
     std::set<std::string> final_states;
     std::string state;
@@ -60,6 +68,7 @@ int DfaSimulation::run(const cxxopts::ParseResult &args) {
     // Átmenetek beolvasása
     std::map<std::string, std::map<char, std::string>> transitions;
     while (std::getline(infile, line)) {
+        trim_cr(line);
         if (line.empty()) continue;
         std::istringstream trans_iss(line);
         std::string from_state, to_state;
